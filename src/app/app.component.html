@@ -1,5 +1,5 @@
 <div class="container mt-5">
-  <p class="text-success">
-    Radi
-  </p>
+  <ul class="list-group">
+    <app-room *ngFor="let room of rooms" [room] = "room"></app-room>
+  </ul>
 </div>
