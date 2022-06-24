@@ -16,7 +16,7 @@ export class RoomComponent implements OnInit {
   };
 
   constructor() {
-this.room
+
 
 
 

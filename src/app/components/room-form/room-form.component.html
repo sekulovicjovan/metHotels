@@ -1,0 +1,23 @@
+<form (ngSubmit)="onSubmit(idInput, titleInput, priceInput)">
+
+  <div class="row row-cols-3">
+    <div class="col">
+      <div class="mb-3">
+        <div class="roomId">Id</div>
+      <input type="text" name="id" id="roomId" class="form-control" #idInput>
+      </div>
+      <div class="mb-3">
+        <div class="roomTitle">Title</div>
+      <input type="text" name="title" id="roomTitle" class="form-control" #titleInput>
+      </div>
+      <div class="mb-3">
+        <div class="roomPrice">Price</div>
+      <input type="text" name="price" id="roomPrice" class="form-control" #priceInput>
+      </div>
+<div class="mt-3">
+  <button class="btn btn-success mb-5 ">Add new room</button>
+</div>
+    </div>
+  </div>
+
+</form>

@@ -1,4 +1,5 @@
 <div class="container mt-5">
+  <app-room-form (myOnSubmit)="addRoom($event)"></app-room-form>
   <ul class="list-group">
     <app-room *ngFor="let room of rooms" [room] = "room"></app-room>
   </ul>

@@ -12,4 +12,9 @@ export class AppComponent {
     {id : 2, title : 'Soba 2', img : 'assets/img/room.jpg', price : 150},
     {id : 3, title : 'Soba 3', img : 'assets/img/room.jpg', price : 250}
   ]
+  addRoom(room: Room){
+    this.rooms.push(room);
+  }
+
+
 }
